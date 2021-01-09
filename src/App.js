@@ -12,13 +12,13 @@ function App() {
       onCommand: ({ command, articles }) => {
         if (command === "newHeadlines") {
           console.log(articles);
-          setNewsArticles(articles)
+          setNewsArticles(articles);
         }
       },
     });
   }, []);
 
-  return <div>{<NewsCards articles={newsArticles} /> }</div>;
+  return <div>{<NewsCards articles={newsArticles} />}</div>;
 }
 
 export default App;
