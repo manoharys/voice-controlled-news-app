@@ -1,70 +1,94 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# voice-controlled-news-app
+##### Conversational voice control React news app -
+  
+---
 
-## Available Scripts
+### Table of Contents
 
-In the project directory, you can run:
+- [Description](#description)
+- [Preview](#preview)
+- [How To Use](#how-to-use)
+- [License](#license)
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## Description
+  ##### Developed a conversational voice-controlled react news application using Alan AI. Integrated their speech recognition software that allows adding voice capability to the application. It allows us to control absolutely everything in the app using our voice commands.
+  
+[Back To The Top](#voice-controlled-news-app)
 
-### `npm test`
+---
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Preview
+<img src = 'https://github.com/manoharys/voice-controlled-news-app/blob/master/capture/gif.gif'>
 
-### `npm run build`
+#### Screenshots
+<img src='https://github.com/manoharys/voice-controlled-news-app/blob/master/capture/p1.JPG'>
+<img src='https://github.com/manoharys/voice-controlled-news-app/blob/master/capture/p2.JPG'>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+[Back To The Top](#voice-controlled-news-app)
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## How To Use
 
-### `npm run eject`
+#### Installation
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- First clone this repository.
+```bash
+$ git clone https://github.com/manoharys/voice-controlled-news-app.git
+```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- Install dependencies. Make sure you already have [`nodejs`](https://nodejs.org/en/) & [`npm`](https://www.npmjs.com/) installed in your system.
+```bash
+$ npm install 
+```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+- Register to [`Alan Studio`](https://studio.alan.app/) & [`newsapi`](https://newsapi.org/)for API key & create a new project on alan studio.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- Navigate to /scr/bakend folder and copy all the files to the newly created project on alan studio
 
-## Learn More
+- Start a server
+```bash
+$ npm start
+```
+[Back To The Top](#voice-controlled-news-app)
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## References & API's
+ 
+-  [`newspi`](https://newsapi.org/)
+-  [`Alan Studio`](https://studio.alan.app/)
+-  [`documentation`](https://alan.app/docs/usage/getting-started)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+---
 
-### Code Splitting
+ 
+[Back To The Top](#voice-controlled-news-app)
+## License
+     MIT License
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+    Copyright (c) 2021 Manohar
 
-### Analyzing the Bundle Size
+    Permission is hereby granted, free of charge, to any person obtaining a copy
+    of this software and associated documentation files (the "Software"), to deal
+    in the Software without restriction, including without limitation the rights
+    to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+    copies of the Software, and to permit persons to whom the Software is
+    furnished to do so, subject to the following conditions:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+    The above copyright notice and this permission notice shall be included in all
+    copies or substantial portions of the Software.
 
-### Making a Progressive Web App
+    THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+    IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+    FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+    AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+    LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+    OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+    SOFTWARE.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
 
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+[Back To The Top](#voice-controlled-news-app)
