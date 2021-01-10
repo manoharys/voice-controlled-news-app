@@ -9,6 +9,7 @@ function App() {
   const classes = useStyles();
 
   const [newsArticles, setNewsArticles] = useState([]);
+  const [activeArticle, setActiveArticle] = useState(-1)
   useEffect(() => {
     alanBtn({
       key: alanKey,
@@ -16,6 +17,9 @@ function App() {
         if (command === "newHeadlines") {
           console.log(articles);
           setNewsArticles(articles);
+        }
+        if(command==="highlight"){
+          setActiveArticle(prev=>prev+1);
         }
       },
     });
@@ -26,7 +30,7 @@ function App() {
       <div className={classes.logoContainer}>
         <img src={logo} alt="newReader" className={classes.Logo} />
       </div>
-      {<NewsCards articles={newsArticles} />}
+      {<NewsCards articles={newsArticles} activeArticle={activeArticle}/>}
     </div>
   );
 }
