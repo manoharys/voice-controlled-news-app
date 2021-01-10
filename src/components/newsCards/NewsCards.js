@@ -6,7 +6,7 @@ import useStyles from "./Style";
 const NewsCards = ({ articles, activeArticle}) => {
   const classes = useStyles();
   const infoCards = [
-    { color: "#00838f", title: "Latest News", text: "Give me the latest news" },
+    { color: "#00838f", title: "Latest News", text: "What is the temperature/weather in London" },
     {
       color: "#1565c0",
       title: "News by Categories",
