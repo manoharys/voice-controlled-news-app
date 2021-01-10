@@ -55,6 +55,7 @@ $ npm install
 $ npm start
 ```
 [Back To The Top](#voice-controlled-news-app)
+ 
 ---
 
 ## References & API's
@@ -63,10 +64,10 @@ $ npm start
 -  [`Alan Studio`](https://studio.alan.app/)
 -  [`documentation`](https://alan.app/docs/usage/getting-started)
 
+[Back To The Top](#voice-controlled-news-app)
+
 ---
 
- 
-[Back To The Top](#voice-controlled-news-app)
 ## License
      MIT License
 
